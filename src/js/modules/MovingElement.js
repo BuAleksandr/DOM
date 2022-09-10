@@ -97,9 +97,6 @@ export default class MovingElement {
       this.misses += 1;
       this.pointer[1].textContent = this.misses;
     }
-    if (this.misses === 5) {
-      alert('Игра окончена! Вы проиграли'); // eslint-disable-line no-alert  
-    }
   }
 
   // очищаем статистику
