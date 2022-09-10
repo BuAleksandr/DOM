@@ -1,4 +1,4 @@
-import audioHit from '../src/audio/hit.mp3';
+import audioHit from '../../audio/hit.mp3';
 
 export default class MovingElement {
   constructor(element) {
