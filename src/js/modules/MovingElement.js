@@ -1,4 +1,4 @@
-import audio from '../../audio/hit.mp3';
+import audioHit from '../../audio/hit.mp3';
 
 export default class MovingElement {
   constructor(element) {
@@ -90,7 +90,7 @@ export default class MovingElement {
       this.hits += 1;
       this.pointer[0].textContent = this.hits;
 
-      const Audio = new GameAudio(audio);
+      const Audio = new GameAudio(audioHit);
       Audio.play();
     }
     if (!active) {
