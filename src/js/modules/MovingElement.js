@@ -90,8 +90,8 @@ export default class MovingElement {
       this.hits += 1;
       this.pointer[0].textContent = this.hits;
 
-      const Audio = new GameAudio(audioHit);
-      Audio.play();
+      const hitAudio = new GameAudio(audioHit);
+      hitAudio.play();
     }
     if (!active) {
       this.misses += 1;
