@@ -1,6 +1,6 @@
-## Ссылкка на [github-pages]()
+## Ссылкка на [github-pages](https://bualeksandr.github.io/DOM/)
 
-
+[![Build status](https://ci.appveyor.com/api/projects/status/ay83lxjclwna0ekf?svg=true)](https://ci.appveyor.com/project/BuAleksandr/dom)
 
 ---
 
